@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesci Shirley Undangan</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <!-- Fonts Family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+
+    <!-- Simply Coutdown -->
+    <link rel="stylesheet" href="dist/simplyCountdown.theme.default.css" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h4>Kepada Teman-Teman </h4>
+        <h1>Jesci Shirley</h1>
+        <p>Undangan Sweet Seventeen Jesci Shirley pada:</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Lihat undangan</a>
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Jesci Shirley</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jessci Shirley</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#rsvp">Kehadiran</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Sweet Seventeen</h2>
+            <h3>Diselenggarakan pada 22 Agustus 2024 di PangkalPinang</h3>
+            <p>Oleh karena itu, kami mengundang teman-teman untuk datang pada acara Sweet Seventeen</p>
+          </div>
+        </div>
+        <div class="foto">
+          <div class="text-center">
+            <img src="img/Foto.png" alt="Jessci" class="img-responsive rounded-circle" />
+            <h3>Jesci Shirley</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat: Ukiies Garden Pangkalpinang <br />
+              Jl. Soekarno Hatta No.204, Beluluk, Kec. Pangkalan Baru
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9393558795005!2d106.13234657496773!3d-2.176733897803961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e22c79f7c2110c3%3A0x305c3f89f3684cb1!2sUkiies%20Garden!5e0!3m2!1sid!2sid!4v1723204935012!5m2!1sid!2sid"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <a href="https://maps.app.goo.gl/6TZ9djDjgjgZPNn3A" target="_blank" class="btn btn-light btn-sm my-4">Klik membuka peta</a>
+            <p class="description"> please use our dresscode white and pink with casual style
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Sweet SevenTeen</div>
+              <div class="card-body">
+                <div class="row ustify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-alarm d-block"></i>
+                    <span>18.00 - selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Kamis, 22 Agustus 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">Harap datang tepat waktu</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaimana Cinta Kami bersemi</span>
+            <h2>Cerita Kami</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque temporibus cum nisi aperiam iusto!</p>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-img" style="background-image: url(img/Foto.png);">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>1 Juni 2000</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio ut quibusdam excepturi! Corporis, eaque reiciendis!</p>
+                  </div>
+                </div>
+              </li>
+              
+              <li class="timeline-inverted">
+                <div class="timeline-img" style="background-image: url(img/bg.jpg);">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>1 Juni 2000</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio ut quibusdam excepturi! Corporis, eaque reiciendis!</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-img" style="background-image: url(img/Foto.png);">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>1 Juni 2000</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio ut quibusdam excepturi! Corporis, eaque reiciendis!</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-img" style="background-image: url(img/bg.jpg);">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>1 Juni 2000</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio ut quibusdam excepturi! Corporis, eaque reiciendis!</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Gallery Foto</h2>
+            <p>Oleh karena itu, kami mengundang teman-teman untuk datang pada acara Sweet Seventeen</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/Foto.png" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/Foto.png" alt="Foto 1" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/Foto.png" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/Foto.png" alt="Foto 1" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/Foto.png" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/Foto.png" alt="Foto 1" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/Foto.png" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/Foto.png" alt="Foto 1" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Kehadiran acara -->
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Silahkan isi form dibawah ini untuk konfirmasi kehadiran</p>
+          </div>
+        </div>
+
+        <form id="my-form" class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" action="https://script.google.com/macros/s/AKfycbyQI-cD178fyl1A0EV-DpG_00VaerIW0FclebQZMfTiLopWB3n1Msgfvw6Urot3MZTmAA/exec">
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" />
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Pilih salah satu</option>
+                <option value="hadir">Hadir</option>
+                <option value="tidak hadir">Tidak Hadir</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-12" style="margin-top: 37px">
+            <button class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center mt-4">
+            <small class="block">&copy; 2024 Jesci Shirley. All Rights Reserved</small>
+            <small class="block">Design by <a href="https://www.instagram.com/b_henri1301?igsh=cnRiY2hranc4ZTJz">@Henri</a></small>
+            <ul class="mt-3">
+              <li>
+                <a href="https://www.instagram.com/b_henri1301?igsh=cnRiY2hranc4ZTJz"><i class="bi bi-instagram"></i></a>
+              </li>
+              <li>
+                <a href="www.linkedin.com/in/henri-henri"><i class="bi bi-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/henriRBT"><i class="bi bi-github"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="musik" autoplay loop>
+        <source src="audio/Musik.mp3" type="audio/mp3" />
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Lighbox bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!-- Countdown -->
+    <script src="dist/simplyCountdown.min.js"></script>
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2024, // required
+        month: 8, // required
+        day: 22, // required
+        hours: 18, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+
+    <!-- Toogle Navbar -->
+    <script>
+      const stickytop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickytop.style.overflow = "visible";
+      });
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickytop.style.overflow = "hidden";
+      });
+    </script>
+
+    <!-- Mengembalikan ke halaman web utama-->
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Konfirmasi berhasil terkirim!");
+          });
+        });
+      });
+    </script>
+
+    <!-- Script untuk lihat undangan & Musik -->
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
+      const audioIcon = document.querySelector(".audio-icon-wrapper i");
+      const song = document.querySelector("#musik");
+      let isPlaying = false;
+
+      function disableScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        };
+        rootElement.style.scrollBehavior = "auto";
+      }
+      function enableScroll() {
+        window.onscroll = function () {};
+        rootElement.style.scrollBehavior = "smooth";
+        playAudio();
+      }
+      function playAudio() {
+        song.volume = 0.3;
+        audioIconWrapper.style.display = "flex";
+        song.play();
+        isPlaying = true;
+      }
+      audioIconWrapper.onclick = function () {
+        if (isPlaying) {
+          song.pause();
+          audioIcon.classList.remove("bi-disc");
+          audioIcon.classList.add("bi-pause-circle");
+        } else {
+          song.play();
+          audioIcon.classList.add("bi-disc");
+          audioIcon.classList.remove("bi-pause-circle");
+        }
+        isPlaying = !isPlaying;
+      };
+      disableScroll();
+    </script>
+  </body>
+</html>
