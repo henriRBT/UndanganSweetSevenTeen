@@ -140,6 +140,18 @@ body {
   font-weight: 300;
 }
 
+.info a {
+  background-color: var(--pink);
+  color: white;
+  border: 1px solid var(--pink);
+}
+
+.info a:hover {
+  background-color: white;
+  color: var(--pink);
+  border: 1px solid var(--pink);
+}
+
 .info .card{
   background-color: rgba(255,255,255, 0.5) !important;
   color: var(--bg) !important;
