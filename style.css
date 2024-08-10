@@ -67,6 +67,7 @@ body {
   font-family: "Sacramento", cursive;
   font-size: 3.2rem;
   font-weight: bold;
+  color: var(--pink);
 }
 
 .mynavbar .nav-link {
@@ -136,10 +137,10 @@ body {
   font-size: 1.1rem;
 }
 
-.info .description{
+/* .info .description{
   font-size: 1rem;
   font-weight: 300;
-}
+} */
 
 .info a {
   background-color: var(--pink);
@@ -454,22 +455,14 @@ footer li{
     padding: 45px;
     margin: 3px;
   }
+}
 
-  .timeline li .timeline-img{
-    width: 80px;
-    height: 80px;
+@media (max-width: 403px) {
+  html {
+    font-size: 60%;
   }
-
-  .timeline li .timeline-panel{
-    width: 65%;
-    transform: translateX(-10px);
-  }
-
-  .timeline li .timeline-panel::before{
-    top: 30px;
-  }
-
-  .timeline li .timeline-panel::after{
-    top: 31px;
+  .simply-countdown > .simply-section {
+    padding: 30px;
+    margin: 1px;
   }
 }
